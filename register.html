@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Usuário</title>
+    <link rel="stylesheet" href="./assets/css/register.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Registrar Usuário</h1>
+        <form action="./assets/config/register.php" method="post">
+            <input type="text" id="username" name="username" placeholder="Nome de Usuário" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="password" id="password" name="password" placeholder="Senha" required>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirmar Senha" required>
+            <button type="submit">Registrar</button>
+        </form>
+        <a href="login.php">Já tem uma conta? Faça login</a>
+    </div>
+</body>
+</html>
